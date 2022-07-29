@@ -21,3 +21,4 @@ for($i=0; $i -lt $ips.Length; $i++){
 Remove-NetRoute -Confirm:$false
 #Now set the new ip adress (ip_1) *change InterfaceIndex and PrefixLength if is necesary.
 New-NetIPAddress -InterfaceIndex 18 -IPAddress $ip_1 -PrefixLength 24 -DefaultGateway $gateway -Confirm:$false 
+#Compile this script with PS2EXE.
