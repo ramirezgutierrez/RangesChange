@@ -1,4 +1,4 @@
-*Shorcut for changes ip's ranges
+* Shorcut for changes ip's ranges
 
 This application is useful for switching between multiple IPs via keyboard shortcuts.
 
